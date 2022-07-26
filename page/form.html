@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Formulário</title>
+</head>
+<body>
+  <!--Menu html!!-->
+  <header>
+    <a href="../sobre.html"><img src="/img/logo.png"></a>
+    <nav class="menu">
+    <ul>
+        <li><a href="/sobre.html">Home</a></li>
+        <li><a href="paginas/sobre.html">Sobre</a></li>
+        <li><a href="/paginas/tatuadores.html">Tatuadores</a></li>
+        <li><a href="../page/agendamento.html">Agendamento</a></li>
+    </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="/sobre.html">Home</a></li>
+        <li><a href="/sobre.html">Sobre</a></li>
+        <li><a href="tatuadores.html">Tatuadores</a></li>
+        <li><a href="/page/agendamento.html">Agendamento</a></li>
+      </ul>
+      </div>
+</header>
+<!--Fim menu-->
+<main>
+  <div id="container">
+    <form action="">
+      <img src="../img/logo.png"><br>
+      <input type="text" value="" placeholder="Nome Completo" required autofocus><br>
+      <input type="text" placeholder="Telefone" required><br>
+      <input type="email" placeholder="Email" required><br>
+        <select name="tatuador" id="tatuador">
+            <option disabled="disabled" selected="selected">Escolha um tatuador</option>
+            <option value="">Tatuador 1</option>
+            <option value="">Tatuador 2</option>
+            <option value="">Tatuador 3</option>
+            <option value="">Tatuador 4</option>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <h2>Cor de pele</h2>
+              <input type="radio" id="branco" name="branco" value="branco">
+              <label for="branco">Branco</label><br>
+              <input type="radio" id="preto" name="preto" value="preto">
+              <label for="preto">Preto</label><br>
+              <input type="radio" id="pardal" name="pardal" value="pardal">
+              <label for="pardal">Pardal</label>
+            
+            <input type="submit" value="Submit">
+            <input type="file" name="imagem" id="imagem">
+      <input type="submit" value="Enviar"><br>
+      
+    </form>
+  </div>
+  </main>
+  <script src="/js/script.js"></script>
+</body>
+</html>

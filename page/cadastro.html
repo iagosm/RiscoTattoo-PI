@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+  <!--Menu html (colar após o body)-->
+  <header>
+    <a href="../sobre.html"><img src="../img/logo.png"></a>
+    <nav class="menu">
+    <ul>
+      <li><a href="/sobre.html">Home</a></li>
+      <li><a href="paginas/sobre.html">Sobre</a></li>
+      <li><a href="/paginas/tatuadores.html">Tatuadores</a></li>
+      <li><a href="../page/agendamento.html">Agendamento</a></li>
+    </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="tatuadores.html">Tatuadores</a></li>
+        <li><a href="agendamento.html">Agendamento</a></li>
+      </ul>
+      </div>
+</header>
+<!--Fim menu-->
+  <!-- Inicio do bloco Login -->
+<main>
+  <div id="container">
+    <form action="">
+      <img src="../img/logo.png">
+      <input type="text" value="" placeholder="Nome Completo" autofocus><br>
+      <input type="email" placeholder="E-mail">
+      <input type="password" placeholder="Senha">
+      <input type="password" value="" placeholder="Confirmação de Senha">
+      <input type="submit" value="Cadastrar">
+      <span><a href="agendamento.html">Voltar</a></span>
+      </form>
+  </div>
+  </main>
+  <!-- Fim do bloco Login -->
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
